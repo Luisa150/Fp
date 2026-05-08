@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CUADRADO"/>
+        <attribute name="authors" value="Luisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 06:41:05 p.&#8239;m."/>
+        <attribute name="created" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMzA7MDY6MzE6NDAgcC7igK9tLjsxMDc2MQ=="/>
+        <attribute name="edited" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMzA7MDY6NDE6MDUgcC7igK9tLjsxOzEwODcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <for variable="I" start="1" end="4" direction="inc" step="1">
+                <forward expression="100" pen="down"/>
+                <turn expression="90" rotate="right"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

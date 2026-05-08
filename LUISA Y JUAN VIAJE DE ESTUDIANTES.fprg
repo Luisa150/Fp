@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LUISA Y JUAN VIAJE DE ESTUDIANTES"/>
+        <attribute name="authors" value="Luisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-28 01:07:58 p.&#8239;m."/>
+        <attribute name="created" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MTI6MjM6NDMgcC7igK9tLjsxMDc2OQ=="/>
+        <attribute name="edited" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MDE6MDc6NTggcC7igK9tLjsxOzEwODgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Estudiantes, Total" type="Integer" array="False" size=""/>
+            <input variable="Estudiantes"/>
+            <if expression="Estudiantes&gt;100">
+                <then>
+                    <assign variable="Total" expression="Estudiantes*65000"/>
+                </then>
+                <else>
+                    <if expression="Estudiantes&gt;50">
+                        <then>
+                            <assign variable="Total" expression="Estudiantes*70000"/>
+                        </then>
+                        <else>
+                            <if expression="Estudiantes&gt;30">
+                                <then>
+                                    <assign variable="Total" expression="Estudiantes*95000"/>
+                                </then>
+                                <else>
+                                    <assign variable="Total" expression="Estudiantes*80000"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

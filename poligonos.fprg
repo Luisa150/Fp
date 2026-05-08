@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="poligonos"/>
+        <attribute name="authors" value="Luisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 07:29:41 p.&#8239;m."/>
+        <attribute name="created" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMzA7MDc6MTI6NDkgcC7igK9tLjsxMDc3MA=="/>
+        <attribute name="edited" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMzA7MDc6Mjk6NDEgcC7igK9tLjsxOzEwODc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="l, cant, x" type="Integer" array="False" size=""/>
+            <input variable="cant"/>
+            <for variable="x" start="1" end="cant" direction="inc" step="1">
+                <for variable="l" start="1" end="cant" direction="inc" step="1">
+                    <forward expression="100" pen="down"/>
+                    <turn expression="360/cant" rotate="right"/>
+                </for>
+                <turn expression="300/cant" rotate="right"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

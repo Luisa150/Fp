@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="juan y luisa promedio de notas"/>
+        <attribute name="authors" value="Luisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-28 12:12:20 p.&#8239;m."/>
+        <attribute name="created" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MTE6MjY6MjMgYS7igK9tLjsxMDc1NA=="/>
+        <attribute name="edited" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MTI6MTI6MjAgcC7igK9tLjsxOzEwODcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, N4, N5, suma, promedio" type="Real" array="False" size=""/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <input variable="N4"/>
+            <input variable="N5"/>
+            <assign variable="suma" expression="N1+N2+N3+N4+N5"/>
+            <assign variable="promedio" expression="suma/5"/>
+            <output expression="promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

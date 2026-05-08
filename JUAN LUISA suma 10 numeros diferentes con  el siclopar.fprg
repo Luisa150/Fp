@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="JUAN LUISA suma 10 numeros diferentes con  el siclopar"/>
+        <attribute name="authors" value="Luisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-28 02:12:08 p.&#8239;m."/>
+        <attribute name="created" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MDI6MDg6MzYgcC7igK9tLjsxMDc3Mw=="/>
+        <attribute name="edited" value="THVpc2E7TFVJU0EyMDA1OzIwMjYtMDQtMjg7MDI6MTI6MDggcC7igK9tLjsxOzEwODc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="5&amp;&quot;+&quot;&amp;i&amp;&quot;=&quot;&amp;i+5" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
